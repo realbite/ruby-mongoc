@@ -1,0 +1,20 @@
+SUMMARY
+----------------
+
+The motivation for this gem was to see if using ruby bindings to the C Mongo driver
+would offer a speed advantage over using the ruby mongo bindings.
+
+For convenience there is also a stripped down Resource model.
+
+
+INSTALLATION
+------------------
+
+gem install mongoc
+
+
+USAGE
+------------------
+
+Mongoc::Resource::Database.configure(:host=>'localhost', :database=>'xxxx')
+
